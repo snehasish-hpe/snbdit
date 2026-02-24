@@ -3,6 +3,7 @@ IO tool to write on a file (can be a disk) for a size with a pattern. Verify dat
 
 # Build
 make -f makefile
+
 chmod +x snb_dit
 
 # Write pattern to file
