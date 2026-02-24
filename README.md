@@ -1,6 +1,10 @@
 # snbdit
 IO tool to write on a file (can be a disk) for a size with a pattern. Verify data, fail if mismatch pattern.
 
+# Build
+make -f makefile
+chmod +x snb_dit
+
 # Write pattern to file
 ./snb_dit /tmp/testfile.bin 4096 write 0xDEADBEEF
 
